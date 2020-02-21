@@ -60,11 +60,12 @@ For the size of the hidden layers we tested 64, 128, 196, 256, 512 and we got a 
 
 #### Agent  
 
-For the agent we tested different mini batch size: 64, 128, 196, 256, 512 and we got better results with the 512 size. For the optimizer we got a better result using AdamW over simple Adam.  
+For the agent we tested different mini batch size: 64, 128, 196, 256, 512 and we got better results with the 512 size.  
+For the optimizer we got a better result using AdamW over simple Adam.  
 
 #### Result  
 
-The agent was able to achieve the score >= 30 in the 67 episode and an avg of the last 100 episodes in the episode 136.
+The agent was able to achieve the score >= 30 in the 67 episode and an avg of the last 100 episodes in the episode 136.  
 Plot of rewards
 
 ![image2](https://github.com/esparza83/esparza83-udacity_rl_project2/blob/master/learning.jpg "Rewards plot")
